@@ -48,8 +48,10 @@ h1 {
 }
 
 .card {
+    perspective: none;
+    color: rgb(21, 200, 216);
     border: 1px solid;
-    border-radius: 10px;
+    border-radius: 40px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     margin: 10px;
     padding: 20px;
@@ -70,7 +72,7 @@ h1 {
 @media (max-width: 480px) {
     .card {
         flex: 1 1 100%; /* Um cartão por linha em telas muito pequenas */
-        color: aqua;
+       
     }
 
     h1, h2 {
